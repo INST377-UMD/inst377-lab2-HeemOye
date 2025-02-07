@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>377 form</title>
+</head> 
+<style>
+    input[type="submit"] {
+        background-color: rgb(38, 222, 66);
+        color: rgb(18, 15, 15);
+        padding: 5px 14px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: rgb(222, 219, 15);
+    }
+</style>
+<body style="background-color:powderblue;">
+    <h1>INST 377 - Lab 2 - Contact Me!</h1>
+    <form action="page2.html">
+        <div>
+            <label for="name"><b style="font-size: 22px;">Name:</b></label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <br>
+        
+        <div>
+            <label for="email"><b style="font-size: 22px;">Email:</b></label>
+            <input type="text" id="email" name="email" required>
+        </div>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
